@@ -11,7 +11,7 @@ aws_secret_access_key = os.getenv('SECRET_ACCESS_KEY')
 # Define the name of the S3 bucket and the file you want to upload
 bucket_name = os.getenv('BUCKET_NAME')
 region_name = os.getenv('BUCKET_REGION')  
-file_name = 'test.txt'
+file_name = 'uploads/test.txt'
 
 # Create a Boto3 S3 client
 s3 = boto3.client(
